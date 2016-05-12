@@ -42,6 +42,10 @@
   font-family: 'KilledDJ';
   src: url('KilledDJ.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'MostWazted';
+  src: url('MostWazted.ttf') format('truetype');
+}
 html,
 body {
   position: relative;
@@ -307,4 +311,29 @@ body {
   position: absolute;
   bottom: -1000%;
   left: 15pt;
+}
+#homeless {
+  font-family: 'MostWazted';
+  background: url("homeless-background.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+#homeless #name {
+  font-size: 42pt;
+  color: #0080FF;
+  text-shadow: -1px 0px 2px #000000;
+  right: -60pt;
+}
+#homeless #job {
+  position: relative;
+  font-size: 134pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #222;
+  right: -45pt;
+}
+#homeless #image {
+  position: absolute;
+  bottom: -1100%;
+  right: 15pt;
 }

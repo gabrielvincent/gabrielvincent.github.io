@@ -53,6 +53,11 @@
 	src: url('KilledDJ.ttf') format('truetype');
 }
 
+@font-face {
+	font-family:'MostWazted';
+	src: url('MostWazted.ttf') format('truetype');
+}
+
 html, body {
 	position: relative;
 	margin:0pt;
@@ -367,5 +372,35 @@ html, body {
 		position:absolute;
 		bottom:-1000%;
 		left:15pt;
+	}
+}
+
+#homeless {
+	font-family:'MostWazted';
+	background:url("homeless-background.jpg") no-repeat;
+	background-size: 100% 100%;
+
+	#name {
+		font-size:42pt;
+		color:#0080FF;
+		text-shadow:-1px 0px 2px #000000;
+		right: -60pt;
+	}
+
+	#job {
+		position:relative;
+		font-size:134pt;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		color:#222;
+		right:  -45pt;
+
+	}
+
+	#image {
+		position:absolute;
+		bottom:-1100%;
+		right:15pt;
 	}
 }
