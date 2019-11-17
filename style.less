@@ -65,7 +65,7 @@ body {
 	padding: 0pt;
 	width: 100%;
 	height: 100%;
-	text-rendering: optimizeLegibility;
+	// text-rendering: optimizeLegibility;
 }
 
 #social-container {
@@ -92,7 +92,7 @@ body {
 }
 
 .inner-container {
-	width: 800px;
+	// width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 80pt;
@@ -100,17 +100,26 @@ body {
 }
 
 .name {
-	position: relative;
 	white-space: nowrap;
-}
-
-.job {
-	position: relative;
 }
 
 .image {
 	height: 50%;
 	width: auto;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.name {
+		font-size: 4vw;
+	}
+
+	.job {
+		font-size: 5vw;
+	}
 }
 
 #ninja {
@@ -119,15 +128,11 @@ body {
 	background-image: url("ninja-background.png");
 
 	#name {
-		margin-left: 8pt;
-		font-size: 41pt;
 		color: #777;
 	}
 
 	#job {
-		font-size: 220pt;
 		color: #333;
-		top: -30pt;
 	}
 
 	.image {
@@ -143,17 +148,13 @@ body {
 	background-size: 100% 100%;
 
 	#name {
-		margin-left: 18pt;
-		font-size: 56pt;
+		font-size: 5vw;
 		color: #7a4000;
 	}
 
 	#job {
-		margin-left: 16pt;
-		position: relative;
-		font-size: 220pt;
+		font-size: 6vw;
 		color: #333;
-		top: -30pt;
 	}
 
 	.image {
@@ -168,15 +169,12 @@ body {
 	background: url("dolphin-background.jpg");
 
 	#name {
-		left: -30pt;
-		font-size: 35pt;
+		font-size: 3vw;
 		color: #193d8f;
 	}
 
 	#job {
-		left: -30pt;
-		position: relative;
-		font-size: 120pt;
+		font-size: 4vw;
 		color: #333;
 	}
 
@@ -192,13 +190,12 @@ body {
 	background: url("dragon-background.jpg");
 
 	#name {
-		font-size: 46pt;
+		font-size: 5vw;
 		color: #6d0000;
 	}
 
 	#job {
-		position: relative;
-		font-size: 170pt;
+		font-size: 6vw;
 		color: #333;
 	}
 
@@ -215,17 +212,12 @@ body {
 	background-size: 100% 100%;
 
 	#name {
-		font-size: 32pt;
 		color: #48210e;
-		left: 10pt;
 	}
 
 	#job {
-		position: relative;
-		font-size: 275pt;
-		margin: auto;
+		font-size: 6vw;
 		color: #333;
-		left: 20pt;
 	}
 
 	.image {
@@ -240,15 +232,12 @@ body {
 	background: url("lady-background.jpg");
 
 	#name {
-		font-size: 46pt;
-		left: 20pt;
+		font-size: 5vw;
 		color: #7d0088;
 	}
 
 	#job {
-		position: relative;
-		font-size: 210pt;
-		left: 20pt;
+		font-size: 6vw;
 		color: #333;
 	}
 
@@ -264,13 +253,12 @@ body {
 	background: url("scientist-background.jpg");
 
 	#name {
-		font-size: 58pt;
+		font-size: 5vw;
 		color: #0a5c2c;
 	}
 
 	#job {
-		position: relative;
-		font-size: 210pt;
+		font-size: 6vw;
 		color: #333;
 	}
 
@@ -286,14 +274,10 @@ body {
 	background: url("lord-background.jpg");
 
 	#name {
-		font-size: 34pt;
 		color: #00256e;
 	}
 
 	#job {
-		position: relative;
-		font-size: 240pt;
-		top: -20pt;
 		color: #333;
 	}
 
@@ -309,16 +293,10 @@ body {
 	background: url("viking-background.jpg");
 
 	#name {
-		font-size: 30pt;
 		color: #584023;
-		left: -10pt;
 	}
 
 	#job {
-		position: relative;
-		top: 30pt;
-		left: -10pt;
-		font-size: 132pt;
 		color: #333;
 	}
 
@@ -332,16 +310,14 @@ body {
 #meth-cook {
 	font-family: "HeartBreakingBad";
 	background: url("meth-cook-background.jpg") no-repeat;
-	background-size: auto 100%;
+	background-size: 100% auto;
+	overflow: hidden;
 
 	#name {
-		font-size: 38pt;
 		color: #8ddd82;
 	}
 
 	#job {
-		position: relative;
-		font-size: 144pt;
 		color: #b6b6b6;
 	}
 
@@ -358,20 +334,13 @@ body {
 	background-size: auto 100%;
 
 	#name {
-		font-size: 42pt;
-		color: #ff0000;
 		text-shadow: -1px 0px 2px #000000;
+		color: #ff0000;
 	}
 
 	#job {
-		position: relative;
-		font-size: 144pt;
-		width: 190px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		color: #333;
 		text-shadow: -1px 0px 2px #ffffff;
+		color: #333;
 	}
 
 	.image {
@@ -384,28 +353,30 @@ body {
 #homeless {
 	font-family: "MostWazted";
 	background: url("homeless-background.jpg") no-repeat;
-	background-size: auto 100%;
+	background-size: 100% auto;
+	overflow: hidden;
 
 	#name {
-		font-size: 42pt;
-		color: #0080ff;
+		font-size: 5vw;
 		text-shadow: -1px 0px 2px #000000;
-		right: -60pt;
+		color: #0080ff;
 	}
 
 	#job {
-		position: relative;
-		font-size: 134pt;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		font-size: 6vw;
 		color: #222;
-		right: -45pt;
 	}
 
 	.image {
 		position: absolute;
 		bottom: -1100%;
 		right: 15pt;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#meth-cook,
+	#homeless {
+		background-size: auto 100%;
 	}
 }
