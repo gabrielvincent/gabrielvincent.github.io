@@ -1,1 +1,343 @@
-@font-face{font-family:'Beleza-Regular';src:url('Belleza-Regular.ttf') format('truetype')}@font-face{font-family:'Smokum-Regular';src:url('Smokum-Regular.ttf') format('truetype')}@font-face{font-family:'Underwater-Love';src:url('Underwater-Love.ttf') format('truetype')}@font-face{font-family:'Spyced';src:url('Spyced.ttf') format('truetype')}@font-face{font-family:'Treamd';src:url('Treamd.ttf') format('truetype')}@font-face{font-family:'CookieMonster';src:url('CookieMonster.ttf') format('truetype')}@font-face{font-family:'JLSSpaceGothic';src:url('JLSSpaceGothic.otf') format('opentype')}@font-face{font-family:'KeepCalm-Medium';src:url('KeepCalm-Medium.ttf') format('truetype')}@font-face{font-family:'Viking';src:url('Viking.ttf') format('truetype')}@font-face{font-family:'HeartBreakingBad';src:url('HeartBreakingBad.otf') format('opentype')}@font-face{font-family:'KilledDJ';src:url('KilledDJ.ttf') format('truetype')}@font-face{font-family:'MostWazted';src:url('MostWazted.ttf') format('truetype')}html,body{position:relative;margin:0;padding:0;width:100%;height:100%;text-rendering:optimizeLegibility}#social-container{position:fixed!important;margin-right:-120pt;padding:15pt}.fb-share-button{z-index:1!important}.twitter-share-button{width:100px!important;z-index:1!important;margin-top:4pt}.container{margin:0;padding:0;width:100%;height:100%}.inner-container{width:800px;margin-left:auto;margin-right:auto;padding-top:80pt;text-align:middle}.name{position:relative;white-space:nowrap}.job{position:relative}.image{height:50%;width:auto}#ninja{font-family:'Beleza-Regular';text-shadow:0 2px 2px #e8e8e8;background-image:url("ninja-background.png")}#ninja #name{margin-left:8pt;font-size:41pt;color:#777}#ninja #job{font-size:220pt;color:#333;top:-30pt}#ninja .image{position:absolute;bottom:0;left:0}#cowboy{font-family:'Smokum-Regular';background:url("cowboy-background.jpg") no-repeat;background-size:100% 100%}#cowboy #name{margin-left:18pt;font-size:56pt;color:#7a4000}#cowboy #job{margin-left:16pt;position:relative;font-size:220pt;color:#333;top:-30pt}#cowboy .image{position:absolute;bottom:-100%;right:50pt}#dolphin{font-family:'Underwater-Love';background:url("dolphin-background.jpg")}#dolphin #name{left:-30pt;font-size:35pt;color:#193d8f}#dolphin #job{left:-30pt;position:relative;font-size:120pt;color:#333}#dolphin .image{position:absolute;bottom:-200%;left:50pt}#dragon{font-family:'Spyced';background:url("dragon-background.jpg")}#dragon #name{font-size:46pt;color:#6d0000}#dragon #job{position:relative;font-size:170pt;color:#333}#dragon .image{position:absolute;bottom:-300%;right:50pt}#pirate{font-family:'Treamd';background:url("pirate-background.jpg") no-repeat;background-size:100% 100%}#pirate #name{font-size:32pt;color:#48210e;left:10pt}#pirate #job{position:relative;font-size:275pt;margin:auto;color:#333;left:20pt}#pirate .image{position:absolute;bottom:-400%;left:50pt}#lady{font-family:'CookieMonster';background:url("lady-background.jpg")}#lady #name{font-size:46pt;left:20pt;color:#7d0088}#lady #job{position:relative;font-size:210pt;left:20pt;color:#333}#lady .image{position:absolute;bottom:-500%;right:50pt}#scientist{font-family:'JLSSpaceGothic';background:url("scientist-background.jpg")}#scientist #name{font-size:58pt;color:#0a5c2c}#scientist #job{position:relative;font-size:210pt;color:#333}#scientist .image{position:absolute;bottom:-600%;left:0}#lord{font-family:'KeepCalm-Medium';background:url("lord-background.jpg")}#lord #name{font-size:34pt;color:#00256e}#lord #job{position:relative;font-size:240pt;top:-20pt;color:#333}#lord .image{position:absolute;bottom:-700%;right:20pt}#viking{font-family:'Viking';background:url("viking-background.jpg")}#viking #name{font-size:30pt;color:#584023;left:-10pt}#viking #job{position:relative;top:30pt;left:-10pt;font-size:132pt;color:#333}#viking .image{position:absolute;bottom:-800%;left:0}#meth-cook{font-family:'HeartBreakingBad';background:url("meth-cook-background.jpg") no-repeat;background-size:100% 100%}#meth-cook #name{font-size:38pt;color:#8ddd82}#meth-cook #job{position:relative;font-size:144pt;color:#b6b6b6}#meth-cook .image{position:absolute;bottom:-900%;right:10pt}#dj{font-family:'KilledDJ';background:url("dj-background.jpg") no-repeat;background-size:100% 100%}#dj #name{font-size:42pt;color:#f00;text-shadow:-1px 0 2px #000}#dj #job{position:relative;font-size:144pt;width:190px;display:block;margin-left:auto;margin-right:auto;color:#333;text-shadow:-1px 0 2px #fff}#dj .image{position:absolute;bottom:-1000%;left:15pt}#homeless{font-family:'MostWazted';background:url("homeless-background.jpg") no-repeat;background-size:100% 100%}#homeless #name{font-size:42pt;color:#0080ff;text-shadow:-1px 0 2px #000;right:-60pt}#homeless #job{position:relative;font-size:134pt;display:block;margin-left:auto;margin-right:auto;color:#222;right:-45pt}#homeless .image{position:absolute;bottom:-1100%;right:15pt}
+@font-face {
+  font-family: "Beleza-Regular";
+  src: url("Belleza-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Smokum-Regular";
+  src: url("Smokum-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Underwater-Love";
+  src: url("Underwater-Love.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Spyced";
+  src: url("Spyced.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Treamd";
+  src: url("Treamd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CookieMonster";
+  src: url("CookieMonster.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JLSSpaceGothic";
+  src: url("JLSSpaceGothic.otf") format("opentype");
+}
+@font-face {
+  font-family: "KeepCalm-Medium";
+  src: url("KeepCalm-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Viking";
+  src: url("Viking.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeartBreakingBad";
+  src: url("HeartBreakingBad.otf") format("opentype");
+}
+@font-face {
+  font-family: "KilledDJ";
+  src: url("KilledDJ.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MostWazted";
+  src: url("MostWazted.ttf") format("truetype");
+}
+html,
+body {
+  position: relative;
+  margin: 0pt;
+  padding: 0pt;
+  width: 100%;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+}
+#social-container {
+  position: fixed !important;
+  margin-right: -120pt;
+  padding: 15pt;
+}
+.fb-share-button {
+  z-index: 1 !important;
+}
+.twitter-share-button {
+  width: 100px !important;
+  z-index: 1 !important;
+  margin-top: 4pt;
+}
+.container {
+  margin: 0pt;
+  padding: 0pt;
+  width: 100%;
+  height: 100%;
+}
+.inner-container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80pt;
+  text-align: middle;
+}
+.name {
+  position: relative;
+  white-space: nowrap;
+}
+.job {
+  position: relative;
+}
+.image {
+  height: 50%;
+  width: auto;
+}
+#ninja {
+  font-family: "Beleza-Regular";
+  text-shadow: 0px 2px 2px #e8e8e8;
+  background-image: url("ninja-background.png");
+}
+#ninja #name {
+  margin-left: 8pt;
+  font-size: 41pt;
+  color: #777;
+}
+#ninja #job {
+  font-size: 220pt;
+  color: #333;
+  top: -30pt;
+}
+#ninja .image {
+  position: absolute;
+  bottom: 0pt;
+  left: 0pt;
+}
+#cowboy {
+  font-family: "Smokum-Regular";
+  background: url("cowboy-background.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+#cowboy #name {
+  margin-left: 18pt;
+  font-size: 56pt;
+  color: #7a4000;
+}
+#cowboy #job {
+  margin-left: 16pt;
+  position: relative;
+  font-size: 220pt;
+  color: #333;
+  top: -30pt;
+}
+#cowboy .image {
+  position: absolute;
+  bottom: -100%;
+  right: 50pt;
+}
+#dolphin {
+  font-family: "Underwater-Love";
+  background: url("dolphin-background.jpg");
+}
+#dolphin #name {
+  left: -30pt;
+  font-size: 35pt;
+  color: #193d8f;
+}
+#dolphin #job {
+  left: -30pt;
+  position: relative;
+  font-size: 120pt;
+  color: #333;
+}
+#dolphin .image {
+  position: absolute;
+  bottom: -200%;
+  left: 50pt;
+}
+#dragon {
+  font-family: "Spyced";
+  background: url("dragon-background.jpg");
+}
+#dragon #name {
+  font-size: 46pt;
+  color: #6d0000;
+}
+#dragon #job {
+  position: relative;
+  font-size: 170pt;
+  color: #333;
+}
+#dragon .image {
+  position: absolute;
+  bottom: -300%;
+  right: 50pt;
+}
+#pirate {
+  font-family: "Treamd";
+  background: url("pirate-background.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+#pirate #name {
+  font-size: 32pt;
+  color: #48210e;
+  left: 10pt;
+}
+#pirate #job {
+  position: relative;
+  font-size: 275pt;
+  margin: auto;
+  color: #333;
+  left: 20pt;
+}
+#pirate .image {
+  position: absolute;
+  bottom: -400%;
+  left: 50pt;
+}
+#lady {
+  font-family: "CookieMonster";
+  background: url("lady-background.jpg");
+}
+#lady #name {
+  font-size: 46pt;
+  left: 20pt;
+  color: #7d0088;
+}
+#lady #job {
+  position: relative;
+  font-size: 210pt;
+  left: 20pt;
+  color: #333;
+}
+#lady .image {
+  position: absolute;
+  bottom: -500%;
+  right: 50pt;
+}
+#scientist {
+  font-family: "JLSSpaceGothic";
+  background: url("scientist-background.jpg");
+}
+#scientist #name {
+  font-size: 58pt;
+  color: #0a5c2c;
+}
+#scientist #job {
+  position: relative;
+  font-size: 210pt;
+  color: #333;
+}
+#scientist .image {
+  position: absolute;
+  bottom: -600%;
+  left: 0pt;
+}
+#lord {
+  font-family: "KeepCalm-Medium";
+  background: url("lord-background.jpg");
+}
+#lord #name {
+  font-size: 34pt;
+  color: #00256e;
+}
+#lord #job {
+  position: relative;
+  font-size: 240pt;
+  top: -20pt;
+  color: #333;
+}
+#lord .image {
+  position: absolute;
+  bottom: -700%;
+  right: 20pt;
+}
+#viking {
+  font-family: "Viking";
+  background: url("viking-background.jpg");
+}
+#viking #name {
+  font-size: 30pt;
+  color: #584023;
+  left: -10pt;
+}
+#viking #job {
+  position: relative;
+  top: 30pt;
+  left: -10pt;
+  font-size: 132pt;
+  color: #333;
+}
+#viking .image {
+  position: absolute;
+  bottom: -800%;
+  left: 0pt;
+}
+#meth-cook {
+  font-family: "HeartBreakingBad";
+  background: url("meth-cook-background.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+#meth-cook #name {
+  font-size: 38pt;
+  color: #8ddd82;
+}
+#meth-cook #job {
+  position: relative;
+  font-size: 144pt;
+  color: #b6b6b6;
+}
+#meth-cook .image {
+  position: absolute;
+  bottom: -900%;
+  right: 10pt;
+}
+#dj {
+  font-family: "KilledDJ";
+  background: url("dj-background.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+#dj #name {
+  font-size: 42pt;
+  color: #ff0000;
+  text-shadow: -1px 0px 2px #000000;
+}
+#dj #job {
+  position: relative;
+  font-size: 144pt;
+  width: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333;
+  text-shadow: -1px 0px 2px #ffffff;
+}
+#dj .image {
+  position: absolute;
+  bottom: -1000%;
+  left: 15pt;
+}
+#homeless {
+  font-family: "MostWazted";
+  background: url("homeless-background.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+#homeless #name {
+  font-size: 42pt;
+  color: #0080ff;
+  text-shadow: -1px 0px 2px #000000;
+  right: -60pt;
+}
+#homeless #job {
+  position: relative;
+  font-size: 134pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #222;
+  right: -45pt;
+}
+#homeless .image {
+  position: absolute;
+  bottom: -1100%;
+  right: 15pt;
+}
