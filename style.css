@@ -275,7 +275,7 @@ body {
 #meth-cook {
   font-family: "HeartBreakingBad";
   background: url("meth-cook-background.jpg") no-repeat;
-  background-size: 100% 100%;
+  background-size: auto 100%;
 }
 #meth-cook #name {
   font-size: 38pt;
@@ -294,7 +294,7 @@ body {
 #dj {
   font-family: "KilledDJ";
   background: url("dj-background.jpg") no-repeat;
-  background-size: 100% 100%;
+  background-size: auto 100%;
 }
 #dj #name {
   font-size: 42pt;
@@ -319,7 +319,7 @@ body {
 #homeless {
   font-family: "MostWazted";
   background: url("homeless-background.jpg") no-repeat;
-  background-size: 100% 100%;
+  background-size: auto 100%;
 }
 #homeless #name {
   font-size: 42pt;
