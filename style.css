@@ -103,9 +103,11 @@ body {
   background-image: url("ninja-background.png");
 }
 #ninja #name {
+  font-size: 3.2vw;
   color: #777;
 }
 #ninja #job {
+  font-size: 17vw;
   color: #333;
 }
 #ninja .image {
@@ -119,11 +121,11 @@ body {
   background-size: 100% 100%;
 }
 #cowboy #name {
-  font-size: 5vw;
+  font-size: 4.5vw;
   color: #7a4000;
 }
 #cowboy #job {
-  font-size: 6vw;
+  font-size: 17vw;
   color: #333;
 }
 #cowboy .image {
@@ -140,7 +142,7 @@ body {
   color: #193d8f;
 }
 #dolphin #job {
-  font-size: 4vw;
+  font-size: 10vw;
   color: #333;
 }
 #dolphin .image {
@@ -153,11 +155,11 @@ body {
   background: url("dragon-background.jpg");
 }
 #dragon #name {
-  font-size: 5vw;
+  font-size: 3.5vw;
   color: #6d0000;
 }
 #dragon #job {
-  font-size: 6vw;
+  font-size: 13.5vw;
   color: #333;
 }
 #dragon .image {
@@ -171,10 +173,11 @@ body {
   background-size: 100% 100%;
 }
 #pirate #name {
+  font-size: 2.5vw;
   color: #48210e;
 }
 #pirate #job {
-  font-size: 6vw;
+  font-size: 21vw;
   color: #333;
 }
 #pirate .image {
@@ -187,11 +190,11 @@ body {
   background: url("lady-background.jpg");
 }
 #lady #name {
-  font-size: 5vw;
+  font-size: 3.5vw;
   color: #7d0088;
 }
 #lady #job {
-  font-size: 6vw;
+  font-size: 16vw;
   color: #333;
 }
 #lady .image {
@@ -204,11 +207,11 @@ body {
   background: url("scientist-background.jpg");
 }
 #scientist #name {
-  font-size: 5vw;
+  font-size: 4.5vw;
   color: #0a5c2c;
 }
 #scientist #job {
-  font-size: 6vw;
+  font-size: 16vw;
   color: #333;
 }
 #scientist .image {
@@ -221,9 +224,11 @@ body {
   background: url("lord-background.jpg");
 }
 #lord #name {
+  font-size: 3vw;
   color: #00256e;
 }
 #lord #job {
+  font-size: 17vw;
   color: #333;
 }
 #lord .image {
@@ -236,9 +241,11 @@ body {
   background: url("viking-background.jpg");
 }
 #viking #name {
+  font-size: 2.5vw;
   color: #584023;
 }
 #viking #job {
+  font-size: 11vw;
   color: #333;
 }
 #viking .image {
@@ -253,9 +260,11 @@ body {
   overflow: hidden;
 }
 #meth-cook #name {
+  font-size: 3vw;
   color: #8ddd82;
 }
 #meth-cook #job {
+  font-size: 11vw;
   color: #b6b6b6;
 }
 #meth-cook .image {
@@ -270,10 +279,12 @@ body {
 }
 #dj #name {
   text-shadow: -1px 0px 2px #000000;
+  font-size: 3vw;
   color: #ff0000;
 }
 #dj #job {
   text-shadow: -1px 0px 2px #ffffff;
+  font-size: 19vw;
   color: #333;
 }
 #dj .image {
@@ -288,12 +299,12 @@ body {
   overflow: hidden;
 }
 #homeless #name {
-  font-size: 5vw;
+  font-size: 4vw;
   text-shadow: -1px 0px 2px #000000;
   color: #0080ff;
 }
 #homeless #job {
-  font-size: 6vw;
+  font-size: 11vw;
   color: #222;
 }
 #homeless .image {
