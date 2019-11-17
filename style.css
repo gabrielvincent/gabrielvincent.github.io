@@ -256,7 +256,6 @@ body {
 #meth-cook {
   font-family: "HeartBreakingBad";
   background: url("meth-cook-background.jpg") no-repeat;
-  background-size: 100% auto;
   overflow: hidden;
 }
 #meth-cook #name {
@@ -295,7 +294,6 @@ body {
 #homeless {
   font-family: "MostWazted";
   background: url("homeless-background.jpg") no-repeat;
-  background-size: 100% auto;
   overflow: hidden;
 }
 #homeless #name {
@@ -312,7 +310,13 @@ body {
   bottom: -1100%;
   right: 15pt;
 }
-@media only screen and (max-width: 640px) {
+@media screen and (max-height: 450px) and (orientation: portrait) {
+  #meth-cook,
+  #homeless {
+    background-size: 100% auto;
+  }
+}
+@media screen and (max-height: 450px) and (orientation: landscape) {
   #meth-cook,
   #homeless {
     background-size: auto 100%;
